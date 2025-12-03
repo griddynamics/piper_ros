@@ -111,7 +111,7 @@ conda search pinocchio -c conda-forge
 
 ### 2
 
-运行会出现没有`rospkg`的问题(ros1-noetic)
+运行会出现没有`rospkg`的问题(ros1-humble)
 
 ```bash
 conda activate tv

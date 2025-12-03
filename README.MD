@@ -1,12 +1,12 @@
-# Piper 机械臂ROS(noetic)
+# Piper 机械臂ROS(humble)
 
 [EN](README(EN).md)
 
-![ubuntu](https://img.shields.io/badge/Ubuntu-20.04-orange.svg)
+![ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange.svg)
 
 |ROS |STATE|
 |---|---|
-|![ros](https://img.shields.io/badge/ROS-noetic-blue.svg)|![Pass](https://img.shields.io/badge/Pass-blue.svg)|
+|![ros](https://img.shields.io/badge/ROS-humble-blue.svg)|![Pass](https://img.shields.io/badge/Pass-blue.svg)|
 
 ```shell
 git clone https://github.com/agilexrobotics/piper_ros.git
@@ -14,7 +14,7 @@ git clone https://github.com/agilexrobotics/piper_ros.git
 
 ```shell
 cd piper_ros
-git checkout noetic
+git checkout humble
 ```
 
 |说明 |文档|
@@ -48,11 +48,11 @@ pip3 install piper_sdk
 ```
 
 ```shell
-source /opt/ros/noetic/setup.bash
-sudo apt-get install python3-wstool python3-catkin-tools python3-rosdep ros-noetic-ruckig
-sudo apt-get install ros-noetic-eigen-stl-containers ros-noetic-geometric-shapes ros-noetic-pybind11-catkin
-sudo apt-get install ros-noetic-moveit-resources-panda-moveit-config ros-noetic-ompl ros-noetic-warehouse-ros ros-noetic-eigenpy ros-noetic-rosparam-shortcuts
-sudo apt-get install ros-noetic-moveit-msgs ros-noetic-srdfdom
+source /opt/ros/humble/setup.bash
+sudo apt-get install python3-wstool python3-catkin-tools python3-rosdep ros-humble-ruckig
+sudo apt-get install ros-humble-eigen-stl-containers ros-humble-geometric-shapes ros-humble-pybind11-catkin
+sudo apt-get install ros-humble-moveit-resources-panda-moveit-config ros-humble-ompl ros-humble-warehouse-ros ros-humble-eigenpy ros-humble-rosparam-shortcuts
+sudo apt-get install ros-humble-moveit-msgs ros-humble-srdfdom
 ```
 
 编译
